@@ -8,7 +8,7 @@
 
 body{
   height: 100vh;
-  background: linear-gradient(135deg, #008080, #800080); 
+  background: linear-gradient(#8e08e7, #00dad2);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,17 +18,19 @@ body{
 
 .relogio{
   display: flex;
-  height: 250px;
+  height: 300px;
   width: 600px;
   gap: 30px;
   border-radius: 12px;
   align-items: center;
   justify-content: space-around;
-  box-shadow: 0px 8px 10px rgba(0, 0 , 0, .5);
+  box-shadow: 5px 5px 15px rgba(0, 0 , 0, .7);
+
+  /* box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.726); */
 }
 
 .relogio div {
-  background-color: 800080;
+  background-color: black;
   color: white;
   height: 170px;
   width: 150px;
@@ -37,13 +39,16 @@ body{
   display: flex;
   flex-direction: column;
   border-radius: 12px;
-  /* box-shadow: 5px 5px 15px rgba(0, 0 , 0, .7); */
+  box-shadow: 5px 5px 15px rgba(0, 0 , 0, .7);
 }
 
-.relogio span {
-  font-size: 50px;
-}
+
 
 .relogio span.tempo{
   font-size: 20px;
+}
+
+#horas, #minutos, #segundos{
+  font-size: 70px;
+
 }
